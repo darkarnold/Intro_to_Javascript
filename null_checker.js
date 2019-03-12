@@ -1,5 +1,5 @@
 //Allow variable to be entered using prompt
-var num = 6;
+var num = 0;
 
 //check if number is greater than 0
 if(num > 0){
