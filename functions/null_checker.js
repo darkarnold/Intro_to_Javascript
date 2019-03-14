@@ -1,15 +1,20 @@
 //Allow variable to be entered using prompt
-var num = 0;
-
 //check if number is greater than 0
-if(num > 0){
-  console.log(1);
-}
-//number less than 0
-else if (num < 0) {
-  console.log(-1);
+// Function that checks that a number is greater than zero and returns a value
+
+const checker = num => {
+  if(num > 0){
+    return 1;
+  }
+  //number less than 0
+  else if (num < 0) {
+
+     return -1;
+
+  }
+  else{
+    return 0;
+  }
 
 }
-else{
-  console.log(0);
-}
+console.log(checker(17));
