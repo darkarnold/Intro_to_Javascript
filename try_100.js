@@ -3,10 +3,12 @@
 //output greater if it is greater than 100
 // output try again if it is less than
 
-let number = 56;
-if (number > 100) {
-  console.log("Greater");
+var num = 789;
+for (var nums =0; nums >num; nums++); {
+ if(num<=100){
+     console.log("input again");
+ }
+ else{ console.log(num)
 
-}else {
-  console.log("try again")
+ }
 };
