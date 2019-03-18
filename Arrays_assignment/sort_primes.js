@@ -8,7 +8,7 @@ const shuffle = require('./shuffler.js');
 // array to store prime numbers
 var prime = [];
 
-const number = (n) =>
+const primeNumber = (n) =>
 {
   //loop through the given range and check if its greater than the first prime number
   for (var num = 2; num <= n; num++) {
@@ -40,7 +40,7 @@ return shuffled;
   }
 
 // variable to store the function number in order to use it outside of its scope
-var ranges = number(100);
+var ranges = primeNumber(100);
 // print the shuffled array of prime numbers
 console.log("This is the shuffled prime numbers");
   console.log(ranges);
